@@ -2724,8 +2724,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.512639029322548,
-            "y": 0.46686746987951805,
+            "x": 0.5207280080889788,
+            "y": 0.4457831325301205,
             "uniqueID": "65956b67-42c2-47d4-b92f-d29bfc886496",
             "ioValues": [
                 {
@@ -2740,8 +2740,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.7472194135490394,
-            "y": 0.42771084337349397,
+            "x": 0.7209302325581395,
+            "y": 0.5210843373493976,
             "uniqueID": "12186001-b041-4c5e-9f44-ddfbe49792ed",
             "ioValues": [
                 {
@@ -2750,7 +2750,7 @@
                 },
                 {
                     "name": "Tool Size",
-                    "ioValue": 3.17
+                    "ioValue": 0.005
                 },
                 {
                     "name": "Passes",
@@ -2766,11 +2766,11 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Door"
+                    "ioValue": "Sauna-door-"
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "Door"
+            "partName": "Sauna-door-"
         },
         {
             "atomType": "Rotate",
@@ -2882,7 +2882,7 @@
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-            "partName": "Door"
+            "partName": "Sauna-door-"
         }
     ],
     "allConnectors": [
